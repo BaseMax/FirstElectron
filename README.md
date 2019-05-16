@@ -2,6 +2,8 @@
 
 Begin point and Getting start of the electron using node js.
 
+![ScreenShot](screenshot1.png)
+
 ## Using
 
 #### `$ npm install`
