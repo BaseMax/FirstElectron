@@ -43,6 +43,14 @@ kernel.unprivileged_userns_clone = 1
 
 - https://github.com/justinribeiro/dockerfiles/issues/40
 
+### Other sample
+
+```sh
+$ git clone https://github.com/electron/electron-quick-start
+$ cd electron-quick-start
+$ npm install
+$ npm start
+```
 
 ### License
 
