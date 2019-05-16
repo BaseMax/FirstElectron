@@ -1,1 +1,25 @@
-
+{
+	"name": "FirstElectron",
+	"version": "1.0.0",
+	"description": "Sample software...",
+	"main": "main.js",
+	"scripts": {
+		"start": "electron ."
+	},
+	"repository": "https://github.com/BaseMax/FirstElectron",
+	"keywords": [
+		"Electron",
+		"Start",
+		"Tutorial",
+		"Demo",
+		"Sample"
+	],
+	"author": "Max Base <https://github.com/BaseMax>",
+	"license": "GPL3",
+	"devDependencies": {
+		"electron": "^5.0.0"
+	},
+	"dependencies": {
+		"electron": "^5.0.1"
+	}
+}
