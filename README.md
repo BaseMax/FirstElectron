@@ -23,6 +23,25 @@ found 0 vulnerabilities
 
 ```
 
+
+#### Fun problem
+
+Error :
+```
+[12345:0516/063318.469566:FATAL:setuid_sandbox_host.cc(157)] The SUID sandbox helper binary was found, but is not configured correctly. Rather than run without sandboxing I'm aborting now. You need to make sure that /home/max/Projects/FirstElectron/node_modules/electron/dist/chrome-sandbox is owned by root and has mode 4755.
+```
+
+Solved By :
+```
+[max@base FirstElectron]$ sudo sysctl kernel.unprivileged_userns_clone=1
+kernel.unprivileged_userns_clone = 1
+```
+
+- https://github.com/electron/electron/issues/17972
+
+- https://github.com/justinribeiro/dockerfiles/issues/40
+
+
 ### License
 
-FilterInput is licensed under the [GNU General Public License](LICENSE).
+FirstElectron is licensed under the [GNU General Public License](LICENSE).
