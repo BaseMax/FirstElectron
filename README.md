@@ -34,7 +34,7 @@ Error :
 ```
 
 Solved By :
-```
+```sh
 [max@base FirstElectron]$ sudo sysctl kernel.unprivileged_userns_clone=1
 kernel.unprivileged_userns_clone = 1
 ```
