@@ -28,6 +28,8 @@ found 0 vulnerabilities
 
 #### Fun problem
 
+![ScreenShot](screenshot2.png)
+
 Error :
 ```
 [12345:0516/063318.469566:FATAL:setuid_sandbox_host.cc(157)] The SUID sandbox helper binary was found, but is not configured correctly. Rather than run without sandboxing I'm aborting now. You need to make sure that /home/max/Projects/FirstElectron/node_modules/electron/dist/chrome-sandbox is owned by root and has mode 4755.
